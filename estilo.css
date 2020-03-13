@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body {
+    background-color: #BCE5EB;
+}
+/* CSS Document */
+
+#cabeza {
+    background-color: #6DB392;
+    width: 960px;
+    height: 75px;
+    display: block;
+    padding-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 250px;
+	align-content: center;
+}
+#cabeza nav ul {
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    word-spacing: 60px;
+}
+
+#cabeza nav ul li{
+    display: inline;
+}
+#cabeza nav ul a {
+    text-decoration: none;
+    color: #23435F;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#contenido {
+    background-color: #6DB392;
+}
+#contenido h3 {
+    color: #23435F;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    text-shadow: 0px 0px;
+    padding-top: 30px;
+}
+
+#contenido h4{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-align: center;
+    color:#2F360A;
+}
+#contenido p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: justify;
+    color: #2F360A;
+    margin-left: 60px;
+    margin-right: 600px;
+    padding-bottom: 30px;
+}
+#contenido #imagencontenido {
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+#contenedorimagen {
+    width: 1425px;
+    text-align: center;
+}
+#contenedorimagen #imageninicio #piefoto {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    color: #2D5673;
+    font-size: 30px;
+}
+
+#contacto{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+form h3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:#2D5673;
+	text-align: center;
+}
+label{
+	font-size: 17px;
+	display: block;
+	width: 100%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #2D5673;
+}
+
+input{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 5px;
+}
+
+#pie{
+    background-color: #6DB392;
+    width: 1425px;
+    height: 50px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
